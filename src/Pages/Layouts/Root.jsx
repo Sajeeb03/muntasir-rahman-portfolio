@@ -10,11 +10,11 @@ const Root = () => {
                 <div className='hidden md:block'>
                     <Sidebar />
                 </div>
-                <div className='md:col-span-5 bg-accent z-0'>
+                <div className='md:col-span-5 bg-accent mb-14 md:mb-0'>
                     <Outlet />
                 </div>
             </div>
-            <div className='fixed bottom-0 w-full z-11 md:hidden'>
+            <div className='fixed bottom-0 w-full md:hidden'>
                 <div className='bg-secondary py-4 flex justify-around'>
                     <Link to="/">
                         <FaHome className='h-6 w-6 text-white' />

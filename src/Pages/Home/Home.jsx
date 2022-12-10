@@ -5,13 +5,14 @@ import fb from '../../assets/icons8-facebook-96.png';
 import git from '../../assets/icons8-git-96.png';
 import li from '../../assets/icons8-linkedin-circled-96.png';
 import tw from '../../assets/icons8-twitter-96.png';
+import photo from '../../assets/d.png';
 const Home = () => {
     return (
         <div className='grid place-content-center min-h-screen text-white'>
             <div>
-
-                <h4 className="text-3xl md:text-4xl font-bold">Hi There!</h4>
-                <h6 className="md:text-6xl font-bold uppercase">I'M <span className='text-primary'>Md. Muntasir Rahman</span></h6>
+                <img src={photo} alt="" className='h-24 w-24 rounded-full mb-3 m-auto md:hidden' />
+                <h4 className="text-2xl md:text-4xl font-bold">Hi There!</h4>
+                <h6 className="text-2xl md:text-6xl font-bold uppercase">I'M <span className='text-primary'>Md. Muntasir Rahman</span></h6>
                 <h6 className="text-2xl md:text-4xl font-bold uppercase w-[280px] md:w-full">I'm a<span className='text-primary text-xl md:text-5xl'>
                     <Typewriter
                         options={{
@@ -21,7 +22,7 @@ const Home = () => {
                         }}
                     />
                     <a href={resume} download>
-                        <button className='btn btn-outline btn-primary' style={{ color: "white" }}>Download Resume</button>
+                        <button className='btn btn-outline btn-primary mt-2' style={{ color: "white" }}>Download Resume</button>
                     </a>
                 </span></h6>
             </div>
