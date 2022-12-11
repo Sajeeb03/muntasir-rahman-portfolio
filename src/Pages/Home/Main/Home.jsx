@@ -1,14 +1,14 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import resume from '../../assets/muntasir_rahman_12_7.pdf';
-import fb from '../../assets/icons8-facebook-96.png';
-import git from '../../assets/icons8-git-96.png';
-import li from '../../assets/icons8-linkedin-circled-96.png';
-import tw from '../../assets/icons8-twitter-96.png';
-import photo from '../../assets/d.png';
+import resume from '../../../assets/muntasir_rahman_12_7.pdf';
+import fb from '../../../assets/icons8-facebook-96.png';
+import git from '../../../assets/icons8-git-96.png';
+import li from '../../../assets/icons8-linkedin-circled-96.png';
+import tw from '../../../assets/icons8-twitter-96.png';
+import photo from '../../../assets/d.png';
 const Home = () => {
     return (
-        <div className='grid place-content-center min-h-screen text-white'>
+        <div className='grid place-content-center min-h-screen text-white p-2'>
             <div>
                 <img src={photo} alt="" className='h-24 w-24 rounded-full mb-3 m-auto md:hidden' />
                 <h4 className="text-2xl md:text-4xl font-bold">Hi There!</h4>

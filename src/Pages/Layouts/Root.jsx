@@ -10,7 +10,7 @@ const Root = () => {
                 <div className='hidden md:block'>
                     <Sidebar />
                 </div>
-                <div className='md:col-span-5 bg-accent mb-14 md:mb-0'>
+                <div className='md:col-span-5 bg-accent'>
                     <Outlet />
                 </div>
             </div>

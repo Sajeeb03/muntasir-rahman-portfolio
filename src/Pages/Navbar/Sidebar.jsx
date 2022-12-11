@@ -10,6 +10,7 @@ const Sidebar = () => {
             <h2 className="pl-3 text-2xl w-full text-white hover:bg-primary p-2"><a href="https://drive.google.com/file/d/134TLipEQSf1iP6x9TSjj5zDyhdcCgKQ2/view?usp=sharing" alt="resume" target={`_blank`}>Resume</a></h2>
 
             <Link to="/portfolios"><h2 className="pl-3 text-2xl w-full text-white hover:bg-primary p-2">Portfolios</h2></Link>
+            <Link to="/blogs"><h2 className="pl-3 text-2xl w-full text-white hover:bg-primary p-2">Blogs</h2></Link>
             <Link to="/contact"><h2 className="pl-3 text-2xl w-full text-white hover:bg-primary p-2">Contact Me</h2></Link>
         </div>
     );

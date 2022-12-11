@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='h-screen grid place-items-center'>
-            <div className='bg-secondary w-96 p-8 rounded-lg'>
+        <div className='h-screen grid place-items-center p-3 md:p-0'>
+            <div className='bg-secondary w-full md:w-96 p-8 rounded-lg'>
                 <h3 className="text-3xl font-bold text-primary text-center">Contact Me</h3>
                 <form action="https://formsubmit.co/sajeebmuntasir0@gmail.com" method="POST">
                     <label className="label">
