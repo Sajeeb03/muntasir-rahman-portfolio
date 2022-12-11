@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Project = ({ project }) => {
-    const { title, image, category, details, live, client, server } = project;
+    const { title, image, category, id } = project;
     return (
         <div className="card card-compact bg-secondary shadow-lg text-white">
             <figure><img src={image} className="w-full h-[200px]" alt="Shoes" /></figure>
@@ -9,11 +10,9 @@ const Project = ({ project }) => {
                 <h2 className="card-title">{title}</h2>
                 <p>{category}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-outline btn-xs btn-primary"><a href={live} alt="" target="_blank">Live Site</a></button>
-                    <button className="btn btn-outline btn-xs btn-primary"><a href={client} alt="" target="_blank">Client</a></button>
-                    {
-                        server && <button className="btn btn-outline btn-xs btn-primary"><a href={server} alt="" target="_blank">Server</a></button>
-                    }
+                    <Link to={`/portfolios/${id}`}>
+                        <button className="btn btn-outline btn-primary">Explore</button>
+                    </Link>
                 </div>
             </div>
         </div>

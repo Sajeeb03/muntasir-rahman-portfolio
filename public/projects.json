@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "title": "Dream Car",
+        "image": "https://i.ibb.co/ZzL9LtD/toyota.jpg",
+        "category": "Product Reselling Website",
+        "bullets": [
+            "The website is divided into three kind of operation a buyer can buy and view his product in dashboard",
+            "A seller can update delete or advertise his product to the home page.",
+            "An admin can moderate all buyers and seller and he/she can delete any buyers and sellers.",
+            "Admin also handles the reported items if admin wants he can delete the reported product.",
+            "All verification part was handled in backend every user has a role the jwt verification and also admin/buyer/seller verification took place.",
+            "firebase base authentication system was applied to authenticate user, an user log in with social login he automatically counted as a buyer.",
+            "To create a seller or buyer account user should choose his role while signing up."
+        ],
+        "tech": [
+            "React",
+            "Tailwind CSS",
+            "React-router",
+            "Firebase",
+            "daisy UI",
+            "axios",
+            "React Query",
+            "React-toastify",
+            "React Hook Form"
+        ],
+        "live": "https://dream-car-2e265.web.app/",
+        "client": "https://github.com/Sajeeb03/Dream-car-client",
+        "server": "https://github.com/Sajeeb03/dream-car-server",
+        "screenshots": [
+            "https://i.ibb.co/9H6cvkf/Home.jpg",
+            "https://i.ibb.co/whzqvfY/dark.jpg",
+            "https://i.ibb.co/k2RFFjV/Screenshot-21.png"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Wildography",
+        "image": "https://i.ibb.co/BGJ5M9Q/sumatran-tiger-black-background-remixed-from-photography-by-mehgan-murphy-53876-138128.jpg",
+        "category": "Service providing portfolio.",
+        "bullets": [
+            "A personal portfolio website of a photographer.",
+            "His services and showcase of his work.",
+            "Review section and Update review section.",
+            "Add service section we can add any service from there.",
+            "Implied JWT token so data of an user is secured.",
+            "Firebase authentication.",
+            "Single Page Application."
+        ],
+        "tech": [
+            "React",
+            "React router",
+            "Firebase",
+            "Flowbite react",
+            "React photo view",
+            "Tailwind css",
+            "Mongodb",
+            "yarn"
+        ],
+        "live": "https://wildography-b0b36.web.app/",
+        "client": "https://github.com/Sajeeb03/wildography-client",
+        "server": "https://github.com/Sajeeb03/wildography-app-server",
+        "screenshots": [
+            "https://i.ibb.co/zZ65RS4/services.png",
+            "https://i.ibb.co/J5dmbMj/wildography.jpg",
+            "https://i.ibb.co/52TmtB1/login.png"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Saj Academy",
+        "image": "https://i.ibb.co/gd4J4nm/building.jpg",
+        "category": "Online educational platform",
+        "bullets": [
+            "A educational platform containing of several Courses on Artificia Intelligence.",
+            "Three authentication systems, google, github and email password authentication.",
+            "A private route where a client only can access only if he logs in.",
+            "A dynamic sidebar which takes to the details page.",
+            "The site takes the user to location from he/she was redirect to login page",
+            "A payment gateway.",
+            "It is a single page application."
+        ],
+        "tech": [
+            "React",
+            "React Router",
+            "Bootstrap",
+            "React Bootstrap",
+            "Vanilla CSS",
+            "React hot toast",
+            "React to pdf",
+            "Firebase Authentication"
+        ],
+        "live": "https://saj-academy.web.app/",
+        "client": "https://github.com/Sajeeb03/saj-academy-client",
+        "server": "https://github.com/Sajeeb03/saj-academy-server",
+        "screenshots": [
+            "https://i.ibb.co/w6NsqjC/saj-Academy.png",
+            "https://i.ibb.co/pvQFW1z/Courses.jpg",
+            "https://i.ibb.co/QYrrWcB/Details.png"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Quick Quiz",
+        "image": "https://i.ibb.co/NTSYnV3/library-Books.png",
+        "category": "Multiple choice quiz app",
+        "bullets": [
+            "A client site routing website using react router. It is a single page application.",
+            "Created a site to solve multiple choice question based on some topic.",
+            "Made a counter to count correct answers.",
+            "Use context api to load data to the child elements.",
+            "Created a blog page with valueable information.",
+            "Created a statistics site where the number of total questions showed in a chart."
+        ],
+        "tech": [
+            "React",
+            "Tailwind CSS",
+            "React-router",
+            "daisy UI",
+            "React-toastify"
+        ],
+        "live": "https://quick-quiz-web.netlify.app/",
+        "client": "https://github.com/Sajeeb03/Quick-quiz-app",
+        "server": "",
+        "screenshots": [
+            "https://i.ibb.co/9H6cvkf/Home.jpg",
+            "https://i.ibb.co/whzqvfY/dark.jpg",
+            "https://i.ibb.co/k2RFFjV/Screenshot-21.png"
+        ]
+    }
+]

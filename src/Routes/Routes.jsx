@@ -4,7 +4,9 @@ import Blogs from "../Pages/Blogs/Blogs";
 import Contact from "../Pages/Contact/Contact";
 import HomePage from "../Pages/Home/Home/HomePage";
 import Root from "../Pages/Layouts/Root"
+import Details from "../Pages/Portfolios/Details";
 import Portfolios from "../Pages/Portfolios/Portfolios";
+
 
 const router = createBrowserRouter([
     {
@@ -30,6 +32,11 @@ const router = createBrowserRouter([
             {
                 path: "/blogs",
                 element: <Blogs />
+            },
+            {
+                path: "/portfolios/:id",
+                element: <Details />,
+                // loader: () => product()
             }
         ]
     }
