@@ -1,6 +1,5 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import resume from '../../../assets/muntasir_rahman_12_7.pdf';
 import fb from '../../../assets/icons8-facebook-96.png';
 import git from '../../../assets/icons8-git-96.png';
 import li from '../../../assets/icons8-linkedin-circled-96.png';
@@ -21,7 +20,7 @@ const Home = () => {
                             loop: true,
                         }}
                     />
-                    <a href={resume} download>
+                    <a href="https://drive.google.com/file/d/134TLipEQSf1iP6x9TSjj5zDyhdcCgKQ2/view" target="_blank">
                         <button className='btn btn-outline btn-primary mt-2' style={{ color: "white" }}>Download Resume</button>
                     </a>
                 </span></h6>

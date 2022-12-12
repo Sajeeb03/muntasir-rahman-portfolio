@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Project = ({ project }) => {
     const { title, image, category, id } = project;
     return (
-        <div className="card card-compact bg-secondary shadow-lg text-white">
+        <div data-aos="flip-left" className="card card-compact bg-secondary shadow-lg text-white">
             <figure><img src={image} className="w-full h-[200px]" alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>

@@ -22,9 +22,10 @@ const Root = () => {
                     <Link to="/about">
                         <FaUser className='h-6 w-6 text-white' />
                     </Link>
-                    <a href="https://drive.google.com/file/d/134TLipEQSf1iP6x9TSjj5zDyhdcCgKQ2/view?usp=sharing" target="_blank" alt="resume">
+                    <Link to="/resume">
                         <FaRegListAlt className='h-6 w-6 text-white' />
-                    </a>
+                    </Link>
+
                     <Link to="/portfolios">
                         <FaEnvelopeOpenText className='h-6 w-6 text-white' />
                     </Link>

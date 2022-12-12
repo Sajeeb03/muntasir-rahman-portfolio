@@ -1,11 +1,12 @@
 import { createBrowserRouter } from "react-router-dom"
 import About from "../Pages/About/About";
 import Blogs from "../Pages/Blogs/Blogs";
-import Contact from "../Pages/Contact/Contact";
 import HomePage from "../Pages/Home/Home/HomePage";
 import Root from "../Pages/Layouts/Root"
 import Details from "../Pages/Portfolios/Details";
 import Portfolios from "../Pages/Portfolios/Portfolios";
+import ContactMe from "../Pages/Resume/ContactMe/ContactMe";
+import Resume from "../Pages/Resume/Resume/Resume";
 
 
 const router = createBrowserRouter([
@@ -27,7 +28,11 @@ const router = createBrowserRouter([
             },
             {
                 path: "/contact",
-                element: <Contact />
+                element: <ContactMe />
+            },
+            {
+                path: "/resume",
+                element: <Resume />
             },
             {
                 path: "/blogs",
@@ -36,7 +41,6 @@ const router = createBrowserRouter([
             {
                 path: "/portfolios/:id",
                 element: <Details />,
-                // loader: () => product()
             }
         ]
     }
