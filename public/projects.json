@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Dream Car",
-        "image": "https://i.ibb.co/ZzL9LtD/toyota.jpg",
+        "image": "https://i.ibb.co/qWJRL49/Screenshot-23.png",
         "category": "Product Reselling Website",
         "bullets": [
             "The website is divided into three kind of operation a buyer can buy and view his product in dashboard",
@@ -69,7 +69,7 @@
     {
         "id": 3,
         "title": "Saj Academy",
-        "image": "https://i.ibb.co/gd4J4nm/building.jpg",
+        "image": "https://i.ibb.co/fFQkzYx/Screenshot-25.png",
         "category": "Online educational platform",
         "bullets": [
             "A educational platform containing of several Courses on Artificia Intelligence.",
@@ -102,7 +102,7 @@
     {
         "id": 4,
         "title": "Quick Quiz",
-        "image": "https://i.ibb.co/NTSYnV3/library-Books.png",
+        "image": "https://i.ibb.co/fFQkzYx/Screenshot-25.png",
         "category": "Multiple choice quiz app",
         "bullets": [
             "A client site routing website using react router. It is a single page application.",
@@ -127,5 +127,23 @@
             "https://i.ibb.co/whzqvfY/dark.jpg",
             "https://i.ibb.co/k2RFFjV/Screenshot-21.png"
         ]
+    },
+    {
+        "id": 5,
+        "title": "Daily Prayer Tracker",
+        "image": "https://i.ibb.co/kgBpjt9/Screenshot-28.png",
+        "category": "Daily Activities Tracking Website",
+        "bullets": [
+            "A daily activities tracking app.",
+            "Count total time user expended.",
+            "User Can Set A break"
+        ],
+        "tech": [
+            "React",
+            "Tailwind CSS"
+        ],
+        "live": "https://daily-prayer-tracker.netlify.app/",
+        "client": "https://github.com/Sajeeb03/daily_prayer_tracker_app",
+        "server": ""
     }
 ]

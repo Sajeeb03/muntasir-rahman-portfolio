@@ -32,7 +32,7 @@ const Details = () => {
                     <button className="btn btn-outline btn-primary mt-3 md:mt-0 md:ml-3">Client Repository</button>
                 </a>
                 {
-                    server && <a href={server}>
+                    server && <a href={server} target="_blank">
                         <button className="btn btn-outline btn-primary mt-3 md:mt-0 md:ml-3">Server Repository</button>
                     </a>
                 }
@@ -55,14 +55,14 @@ const Details = () => {
                 </ul>
 
             </div>
-            <h2 className="text-2xl font-bold md:mx-7">Screenshots</h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-3'>
+            {/* <h2 className="text-2xl font-bold md:mx-7">Screenshots</h2> */}
+            {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-3'>
 
                 {
                     screenshots.map((sh, i) => <img key={i} src={sh} alt="" className='h-[320px] md:w-5/6 m-auto rounded-lg' />)
                 }
 
-            </div>
+            </div> */}
         </div>
     );
 };
